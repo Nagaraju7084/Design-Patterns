@@ -1,0 +1,15 @@
+https://www.youtube.com/watch?v=ZFwNNsPW3-Q&list=PLEocw3gLFc8UDTj7f9qDwWNAngX7FXAYx&index=6
+
+creational design pattern meaning create instance
+
+abstract factory hides the creation logic as well as type of object creation
+to maintainability of the code
+
+the main purpose of the factory method hiding what happened behind the
+scene when a specific instance is created
+
+in the future, if we want to change implementation of the vehicle
+just go to the static method in CarFactory and change it, make it
+return something else, we don't want to change all the places
+in the application, meaning implementation is one place using
+by the coupling through interface with the direct implementation

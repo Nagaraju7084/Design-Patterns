@@ -1,0 +1,4 @@
+//problems
+//1. tight coupling
+//2. when pay method called, event manager and notificat manager both are called but we want some times logs, some times notifications
+//some times both
