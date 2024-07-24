@@ -8,6 +8,9 @@ to maintainability of the code
 the main purpose of the factory method hiding what happened behind the
 scene when a specific instance is created
 
+abstract factory is factories of factory
+>we can create similar objects in different ways using abstract factory
+
 in the future, if we want to change implementation of the vehicle
 just go to the static method in CarFactory and change it, make it
 return something else, we don't want to change all the places
