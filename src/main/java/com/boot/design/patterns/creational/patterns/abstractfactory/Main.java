@@ -1,5 +1,6 @@
 package com.boot.design.patterns.creational.patterns.abstractfactory;
 
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDateTime;
 
@@ -14,6 +15,6 @@ public class Main {
 	
 	//example of factory method
 	LocalDateTime localDateTime = LocalDateTime.now(); //factory method
-	Paths paths = Paths.get("c:/abc"); //factory method
+	Path paths = Paths.get("c:/abc"); //factory method
 
 }
